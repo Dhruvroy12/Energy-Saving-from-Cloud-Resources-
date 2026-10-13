@@ -1,0 +1,33 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Segoe UI, Arial, sans-serif; background: #f1f7f2; color: #1f2d24; }
+header { background: #2e7d32; color: #fff; text-align: center; padding: 20px 10px; }
+header h1 { margin: 0 0 4px; }
+header p { margin: 0; opacity: .9; }
+main { max-width: 900px; margin: 20px auto; padding: 0 12px; }
+.card { background: #fff; border-radius: 8px; padding: 16px 20px; margin-bottom: 18px; box-shadow: 0 1px 4px rgba(0,0,0,.12); }
+.card h2 { margin-top: 0; font-size: 1.15rem; color: #2e7d32; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; }
+input[type=number] { width: 90px; padding: 8px; border: 1px solid #aaa; border-radius: 4px; }
+button { padding: 8px 14px; border: none; border-radius: 4px; background: #1976d2; color: #fff; cursor: pointer; font-size: .95rem; }
+button:hover { opacity: .88; }
+button.green { background: #2e7d32; }
+button.grey { background: #757575; }
+#message { margin: 10px 0 0; font-weight: 600; min-height: 1.2em; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 9px 8px; border-bottom: 1px solid #e0e0e0; text-align: left; }
+th { background: #e8f5e9; }
+.bar { background: #e0e0e0; border-radius: 10px; height: 16px; position: relative; overflow: hidden; min-width: 120px; }
+.bar-fill { height: 100%; border-radius: 10px; transition: width .4s; }
+.bar-label { position: absolute; top: 0; left: 8px; font-size: .75rem; line-height: 16px; color: #000; }
+.on { color: #2e7d32; font-weight: 700; }
+.off { color: #c62828; font-weight: 700; }
+.totals { display: flex; gap: 12px; margin-top: 14px; }
+.totals div { flex: 1; background: #f1f7f2; border-radius: 6px; padding: 10px; text-align: center; }
+.totals span { display: block; font-size: 1.5rem; font-weight: 700; color: #2e7d32; }
+.totals small { color: #555; }
+.green-box div { background: #e8f5e9; }
+.chart-wrap { max-width: 520px; margin: 0 auto 16px; }
+.report { margin-top: 10px; }
+.hidden { display: none; }
+.note { font-size: .8rem; color: #555; text-align: center; }
+@media (max-width: 600px) { .totals { flex-direction: column; } }
